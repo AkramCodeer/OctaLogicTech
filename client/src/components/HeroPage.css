@@ -1,0 +1,45 @@
+.hero-container {
+  position: relative;
+  width: 100%;
+  height: 500px; /* Adjust height as needed */
+  overflow: hidden;
+}
+
+.main-car {
+  position: absolute;
+  top: 50px; /* Adjust top position as needed */
+  right: 150px; /* Move the image towards the right */
+  z-index: 2;
+}
+
+.hero-bg {
+  position: absolute;
+  margin-left: 55%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.text-content {
+  position: absolute;
+  top: 50px; /* Adjust top position as needed */
+  left: 50px; /* Adjust left position as needed */
+  z-index: 3;
+  color: #ffffff; /* Text color */
+  font-family: 'Poppins', sans-serif; /* Set font family to Poppins */
+}
+
+.text-content h3 {
+  color: black; 
+  font-size: 32px; /* Increase font size for heading */
+}
+
+.text-content h1 {
+  color: #ff0000; /* Red color for main heading */
+  font-size: 48px; /* Increase font size for main heading */
+}
+
+.text-content p {
+  color: black;
+  font-size: 20px; /* Increase font size for paragraph */
+}
